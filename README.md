@@ -28,13 +28,10 @@ https://github.com/ravitejareddynarla/react-livedash
 
 ## Screenshots
 
-Add your screenshots here:
+Screenshots:
 
 ![Dashboard](screenshots/Dashboard.png
 )
-![Charts](screenshots/charts.png)
-
----
 
 ## Tech Stack
 
