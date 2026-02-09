@@ -30,7 +30,7 @@ https://github.com/ravitejareddynarla/react-livedash
 
 Add your screenshots here:
 
-![Dashboard](screenshots/dashboard.png
+![Dashboard](screenshots/Dashboard.png
 )
 ![Charts](screenshots/charts.png)
 
