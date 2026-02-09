@@ -1,16 +1,65 @@
-# React + Vite
+# LiveDash Cloud
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Real-time web dashboard for monitoring multi-sensor pressure, temperature, and humidity data.
 
-Currently, two official plugins are available:
+Built to simulate and visualize industrial / laboratory sensor streams with live updates, charts, and export capabilities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+https://steady-dango-d66f59.netlify.app
 
-## React Compiler
+## GitHub
+https://github.com/ravitejareddynarla/react-livedash
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Real-time streaming sensor data
+- Pressure / Temperature / Humidity cards
+- Interactive charts (Recharts)
+- Recent readings table
+- CSV export
+- Pause / Resume monitoring
+- Mock mode (offline testing)
+- API mode (connect real sensors)
+- Deployable on any device via Netlify
+
+---
+
+## Screenshots
+
+Add your screenshots here:
+
+![Dashboard](screenshots/dashboard.png)
+![Charts](screenshots/charts.png)
+
+---
+
+## Tech Stack
+
+- React (Hooks)
+- Vite
+- Recharts
+- JavaScript (ES6+)
+- Netlify Deployment
+
+---
+
+## Project Architecture
+
+Frontend:
+React dashboard visualizes live data
+
+Modes:
+- Mock stream → simulated realistic values
+- API mode → fetch JSON from backend
+
+Backend ready format:
+
+```json
+{
+  "ts": "2026-02-10T12:00:00.000Z",
+  "readings": [
+    { "sensor": "S1", "p": 101.2, "t": 28.1, "h": 54.9 }
+  ]
+}
