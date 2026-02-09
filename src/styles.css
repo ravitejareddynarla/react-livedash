@@ -1,0 +1,61 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  background: #070b18;
+  color: #e9eefc;
+}
+.page { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.header { display:flex; justify-content:space-between; align-items:center; gap:14px; flex-wrap:wrap; }
+.title { margin:0; font-size:36px; }
+.subtitle { margin:8px 0 0; opacity:.8; }
+.right { display:flex; gap:10px; flex-wrap:wrap; }
+.card {
+  margin-top: 16px;
+  background: #0c1330;
+  border: 1px solid #1f2b63;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 12px 28px rgba(0,0,0,.28);
+}
+.btn {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid #2a3a77;
+  background: #1c2a64;
+  color: #e9eefc;
+  cursor: pointer;
+}
+.btn:hover { filter: brightness(1.06); }
+.btn.ghost { background: transparent; }
+.btn.danger { background: #5b1f2a; border-color: #7b2a37; }
+.toolbar { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; align-items:flex-end; }
+.field label { display:block; font-size:12px; opacity:.8; margin-bottom:6px; }
+.input {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid #2a3a77;
+  outline: none;
+  background: #070b18;
+  color: #e9eefc;
+  width: 220px;
+}
+.field.wide .input { width: 360px; }
+.meta { display:flex; gap:10px; flex-wrap:wrap; }
+.pill { padding: 8px 10px; border: 1px solid #1f2b63; border-radius: 999px; background: #0a1028; }
+.grid { margin-top: 14px; display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+.tile { border: 1px solid #1f2b63; border-radius: 14px; padding: 12px; background:#0a1028; }
+.tileHead { display:flex; justify-content:space-between; align-items:center; }
+.sensor { font-weight: 700; }
+.stamp { font-size: 12px; opacity: .75; }
+.kv { margin-top: 10px; display:grid; gap:8px; }
+.kv div { display:flex; justify-content:space-between; gap:10px; }
+.kv span { opacity:.8; }
+.h2 { margin: 18px 0 10px; font-size: 18px; }
+.tableWrap { overflow:auto; border-radius: 14px; border: 1px solid #1f2b63; }
+.table { width:100%; border-collapse:collapse; min-width: 720px; background:#0a1028; }
+.table th, .table td { padding: 10px 12px; border-bottom: 1px solid rgba(31,43,99,.65); text-align:left; }
+.table th { position:sticky; top:0; background:#0c1330; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; }
+.footer { margin-top: 14px; opacity: .65; font-size: 13px; }
