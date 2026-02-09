@@ -30,7 +30,7 @@ https://github.com/ravitejareddynarla/react-livedash
 
 Add your screenshots here:
 
-![Dashboard](<img width="1920" height="1044" alt="image" src="https://github.com/user-attachments/assets/49b64ac3-400a-458e-b335-a4d2b3a78f00" />
+![Dashboard](screenshots/dashboard.png
 )
 ![Charts](screenshots/charts.png)
 
