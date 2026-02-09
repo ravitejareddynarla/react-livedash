@@ -5,7 +5,7 @@ Real-time web dashboard for monitoring multi-sensor pressure, temperature, and h
 Built to simulate and visualize industrial / laboratory sensor streams with live updates, charts, and export capabilities.
 
 ## Live Demo
-https://steady-dango-d66f59.netlify.app
+https://steady-dango-d66f59.netlify.app](https://livedash-sensordata.netlify.app/
 
 ## GitHub
 https://github.com/ravitejareddynarla/react-livedash
